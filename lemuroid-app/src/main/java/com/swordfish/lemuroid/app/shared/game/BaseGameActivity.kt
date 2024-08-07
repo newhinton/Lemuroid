@@ -177,6 +177,7 @@ abstract class BaseGameActivity : ImmersiveActivity() {
         lifecycleScope.launch {
             joinStickAndDPADifSupported = settingsManager.joinStickDpad()
             loadGame()
+            requestedOrientation = settingsManager.screenOrientation()
         }
 
         initialiseFlows()
