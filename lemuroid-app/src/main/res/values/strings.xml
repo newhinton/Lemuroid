@@ -218,4 +218,8 @@
     <string name="screen_rotation_display_portrait">Portrait</string>
     <string name="screen_rotation_display_auto">Auto</string>
 
+    <string name="documentprovider_folder_override_saves">Saves</string>
+    <string name="documentprovider_folder_override_states">States</string>
+    <string name="documentprovider_folder_override_roms">Roms</string>
+    <string name="documentprovider_folder_override_previews">Previews</string>
 </resources>
